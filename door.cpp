@@ -30,6 +30,10 @@ public:
             cout << "Cannot lock. The door is open." << endl;
         }
     }
+    void unlockDoor() {
+        isLocked = false;
+        cout << "Door is unlocked." << endl;
+    }
 
 };
 
