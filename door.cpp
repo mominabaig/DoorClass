@@ -21,7 +21,15 @@ public:
     bool isOpenStatus() {
         return isOpen;
     }
-   
+    void lockDoor() {
+        if (!isOpen) {
+            isLocked = true;
+            cout << "Door is locked." << endl;
+        }
+        else {
+            cout << "Cannot lock. The door is open." << endl;
+        }
+    }
 
 };
 
