@@ -18,9 +18,10 @@ public:
         cout << "Door is closed." << endl;
     }
 
-    bool isOpenStatus() {
+     bool isDoorOpen() const {
         return isOpen;
     }
+
 };
 
 int main() {
