@@ -6,8 +6,7 @@ private:
     bool isOpen;
 
 public:
-    Door() : isOpen(false) {}
-
+    Door() : isOpen(false), isLocked(false) {} // Initializes the door as closed and unlocked
     void open() {
         isOpen = true;
         cout << "Door is open." << endl;
