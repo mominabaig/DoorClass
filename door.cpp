@@ -18,23 +18,9 @@ public:
         cout << "Door is closed." << endl;
     }
 
-    bool isOpenStatus() {
+     bool isDoorOpen() const {
         return isOpen;
     }
-    void lockDoor() {
-        if (!isOpen) {
-            isLocked = true;
-            cout << "Door is locked." << endl;
-        }
-        else {
-            cout << "Cannot lock. The door is open." << endl;
-        }
-    }
-    void unlockDoor() {
-        isLocked = false;
-        cout << "Door is unlocked." << endl;
-    }
-
 };
 
 int main() {
