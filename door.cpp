@@ -21,7 +21,6 @@ public:
      bool isDoorOpen() const {
         return isOpen;
     }
-
 };
 
 int main() {
