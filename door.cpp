@@ -21,6 +21,10 @@ public:
      bool isDoorOpen() const {
         return isOpen;
     }
+
+      bool isDoorLocked() const {
+        return isLocked;
+    }
 };
 
 int main() {
